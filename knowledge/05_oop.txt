@@ -1,0 +1,28 @@
+Object-Oriented Programming
+
+Object-Oriented Programming (OOP) organizes software using objects.
+
+The four main principles are:
+
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+
+A class defines the structure of an object.
+
+An object is an instance of a class.
+
+Example:
+
+class Student
+{
+    public string Name;
+    public int Age;
+}
+
+Student s = new Student();
+
+Objects contain fields, properties, and methods.
+
+OOP makes large programs easier to maintain and extend.

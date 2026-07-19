@@ -1,0 +1,27 @@
+Methods
+
+Methods are reusable blocks of code.
+
+A method can receive parameters and return a value.
+
+Example:
+
+int Add(int a, int b)
+{
+    return a + b;
+}
+
+Methods improve code organization and reduce duplication.
+
+Methods without a return value use void.
+
+Example:
+
+void PrintMessage()
+{
+    Console.WriteLine("Hello");
+}
+
+Parameters allow methods to work with different values.
+
+Method names should describe their purpose clearly.

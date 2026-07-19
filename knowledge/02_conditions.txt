@@ -1,0 +1,57 @@
+Conditional Statements
+
+Conditional statements allow a program to make decisions.
+
+The most common statement is if.
+
+Example:
+
+if(age >= 18)
+{
+    Console.WriteLine("Adult");
+}
+
+The else statement executes when the condition is false.
+
+Example:
+
+if(score >= 60)
+{
+    Console.WriteLine("Passed");
+}
+else
+{
+    Console.WriteLine("Failed");
+}
+
+When multiple conditions are needed, use else if.
+
+switch is useful when comparing one variable with many possible values.
+
+Example:
+
+switch(day)
+{
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+
+    default:
+        Console.WriteLine("Unknown");
+        break;
+}
+
+Conditions usually use comparison operators:
+
+==
+!=
+<
+>
+<=
+>=
+
+Logical operators include:
+
+&&
+||
+!

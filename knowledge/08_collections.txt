@@ -1,0 +1,29 @@
+Collections
+
+Collections store groups of objects.
+
+The most common collection is List<T>.
+
+Example:
+
+List<string> names = new List<string>();
+
+Adding items:
+
+names.Add("Alice");
+
+Removing items:
+
+names.Remove("Alice");
+
+Collections can be searched, sorted, and iterated.
+
+Useful collections include:
+
+List<T>
+Dictionary<TKey, TValue>
+HashSet<T>
+Queue<T>
+Stack<T>
+
+Choose the correct collection depending on the problem.

@@ -1,0 +1,30 @@
+Interfaces
+
+An interface defines a contract.
+
+It contains method declarations but normally no implementation.
+
+Example:
+
+interface IMovable
+{
+    void Move();
+}
+
+A class implements the interface.
+
+Example:
+
+class Car : IMovable
+{
+    public void Move()
+    {
+        Console.WriteLine("Moving");
+    }
+}
+
+Interfaces allow different classes to share the same behavior.
+
+A class may implement multiple interfaces.
+
+Interfaces increase flexibility and make testing easier.

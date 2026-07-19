@@ -1,0 +1,35 @@
+Loops
+
+Loops repeat code multiple times.
+
+The for loop is used when the number of iterations is known.
+
+Example:
+
+for(int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+The while loop repeats while a condition is true.
+
+The do-while loop always executes at least once.
+
+Example:
+
+do
+{
+    Console.WriteLine("Running");
+}
+while(false);
+
+foreach is used to iterate through collections.
+
+Example:
+
+foreach(string name in names)
+{
+    Console.WriteLine(name);
+}
+
+Choose the correct loop depending on the problem.

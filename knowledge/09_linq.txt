@@ -1,0 +1,29 @@
+LINQ
+
+LINQ stands for Language Integrated Query.
+
+It allows querying collections using readable syntax.
+
+Example:
+
+var adults = people.Where(p => p.Age >= 18);
+
+Common LINQ methods:
+
+Where()
+Select()
+OrderBy()
+First()
+FirstOrDefault()
+Any()
+Count()
+
+LINQ improves readability and reduces loops.
+
+Example:
+
+var names = students
+    .Where(s => s.Age >= 18)
+    .Select(s => s.Name);
+
+LINQ works with arrays, lists, and many other collections.

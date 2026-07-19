@@ -1,0 +1,48 @@
+Variables in C#
+
+A variable is a named storage location that holds data in memory. Every variable has a data type, a name, and a value.
+
+Before a variable can be used, it must be declared.
+
+Examples:
+
+int age = 20;
+double price = 15.99;
+string name = "Alice";
+bool isStudent = true;
+char grade = 'A';
+
+Common data types:
+
+int - whole numbers
+double - decimal numbers
+string - text
+char - single character
+bool - true or false
+
+Variables can change their value during program execution.
+
+Example:
+
+int score = 10;
+score = 25;
+
+Using meaningful variable names makes programs easier to understand.
+
+Good examples:
+
+studentName
+totalPrice
+gameScore
+
+Poor examples:
+
+x
+a
+temp
+
+Constants store values that should never change.
+
+Example:
+
+const double PI = 3.14159;

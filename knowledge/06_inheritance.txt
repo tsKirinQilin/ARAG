@@ -1,0 +1,32 @@
+Inheritance
+
+Inheritance allows one class to inherit members from another class.
+
+The existing class is called the base class.
+
+The new class is called the derived class.
+
+Example:
+
+class Animal
+{
+    public void Eat()
+    {
+    }
+}
+
+class Dog : Animal
+{
+}
+
+Dog automatically inherits Eat().
+
+Inheritance reduces duplicated code.
+
+Only an "is-a" relationship should use inheritance.
+
+Examples:
+
+Dog is an Animal.
+
+Car is not an Engine.

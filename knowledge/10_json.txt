@@ -1,0 +1,30 @@
+JSON in C#
+
+JSON is a text format for storing and exchanging data.
+
+C# provides System.Text.Json.
+
+Serialization converts an object into JSON.
+
+Example:
+
+string json = JsonSerializer.Serialize(student);
+
+Deserialization converts JSON back into an object.
+
+Example:
+
+Student student =
+    JsonSerializer.Deserialize<Student>(json);
+
+JSON is commonly used in:
+
+Web APIs
+
+Configuration files
+
+Data storage
+
+Communication between applications
+
+JSON is lightweight, readable, and widely supported.
