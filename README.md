@@ -78,3 +78,13 @@ Possible improvements:
 - Add more documents
 - Improve chunking
 - Use a stronger embedding model
+
+Built an Agentic RAG assistant that answers C# questions using basic knowledge base.
+
+Unlike a basic RAG system, it has an autonomous retrieval decision step. Before searching the vector database, the agent decides whether retrieval is needed. If the question is related to the C# knowledge base, it chooses RETRIEVE and searches ChromaDB. Otherwise, it chooses NO_RETRIEVE and answers directly without retrieval. This decision changes the behavior of the system.
+
+The answers are grounded and traceable because when retrieval is used, the assistant generates responses from retrieved knowledge base documents and shows the source files used for the answer.
+
+The retrieval process is based on semantic similarity search. User questions and documents are converted into embeddings using sentence-transformers, and ChromaDB returns the most relevant document chunks.
+
+During testing, I found a failure case where a question about a specific C# topic sometimes retrieved general C# documents instead of the exact topic document. I diagnosed that the issue was caused by a small knowledge base and simple embedding similarity search. Possible improvements would be adding more documents, improving chunking, or using a stronger embedding model.
